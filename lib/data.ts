@@ -1,0 +1,203 @@
+import {
+  BrainCircuit,
+  Briefcase,
+  Building2,
+  Code2,
+  Gauge,
+  Github,
+  HardHat,
+  Layers,
+  LineChart,
+  Linkedin,
+  Mail,
+  MessageCircle,
+  Phone,
+  Receipt,
+  Server,
+  ShoppingBag,
+  Smartphone,
+  Sparkles,
+  Target,
+  TrendingUp,
+  Workflow,
+} from "lucide-react";
+
+export const profile = {
+  initials: "AZ",
+  email: "abdullahzeb540@gmail.com",
+  phone: "+966 55 250 7654",
+  whatsapp: "+966 57 505 6318",
+  github: "https://github.com/abdullahzeb11",
+  linkedin: "https://www.linkedin.com/in/abdullah-zeb",
+  resume: "/abdullah-zeb-resume.pdf",
+  yearsOfExperience: 5,
+};
+
+export const navHrefs = [
+  { href: "#about", key: "about" as const },
+  { href: "#experience", key: "experience" as const },
+  { href: "#projects", key: "projects" as const },
+  { href: "#stack", key: "stack" as const },
+  { href: "#services", key: "services" as const },
+  { href: "#contact", key: "contact" as const },
+];
+
+export const projectMeta = [
+  {
+    slug: "ai-doc-qa",
+    accent: "from-blue-400/30 via-purple-500/20 to-fuchsia-600/30",
+    icon: BrainCircuit,
+    screenshot: "/projects/ai-doc-qa.png",
+    live: "https://ai-doc-qa-abdullah.netlify.app/",
+    code: "https://github.com/abdullahzeb11/ai-doc-qa",
+    stack: ["Next.js 15", "Supabase", "pgvector", "Claude API"],
+  },
+  {
+    slug: "fawtara",
+    accent: "from-green-400/30 via-emerald-500/20 to-teal-600/30",
+    icon: Receipt,
+    screenshot: "/projects/fawtara.png",
+    live: "https://fawtara-invoicing.netlify.app/",
+    code: "https://github.com/abdullahzeb11/vat-invoicing-saas",
+    stack: ["Next.js 15", "Supabase", "Postgres", "pdf-lib"],
+  },
+  {
+    slug: "sfcc",
+    accent: "from-indigo-400/30 via-blue-500/20 to-sky-600/30",
+    icon: Layers,
+    screenshot: "",
+    live: "",
+    code: "",
+    stack: ["SFCC SFRA", "ISML", "Node.js", "OCAPI"],
+  },
+  {
+    slug: "oasis-breeze",
+    accent: "from-cyan-400/30 via-sky-500/20 to-blue-600/30",
+    icon: Building2,
+    screenshot: "/projects/oasis-breeze.png",
+    live: "https://oasisbreeze-ksa.netlify.app/",
+    code: "https://github.com/abdullahzeb11/oasis-breeze",
+    stack: ["Next.js 15", "TypeScript", "Tailwind", "i18n", "Sanity"],
+  },
+  {
+    slug: "hr-leave",
+    accent: "from-violet-400/30 via-fuchsia-500/20 to-purple-600/30",
+    icon: Workflow,
+    screenshot: "/projects/hr-leave.png",
+    live: "https://leavely-demo.netlify.app/",
+    code: "https://github.com/abdullahzeb11/hr-leave-management",
+    stack: ["React", "Node.js", "MySQL", "Tailwind"],
+  },
+  {
+    slug: "attendance",
+    accent: "from-amber-400/30 via-orange-500/20 to-rose-600/30",
+    icon: LineChart,
+    screenshot: "/projects/attendance.png",
+    live: "https://attendly-dashboard.netlify.app/",
+    code: "https://github.com/abdullahzeb11/attendance-dashboard",
+    stack: ["React", "Recharts", "Node.js", "MongoDB"],
+  },
+  {
+    slug: "restaurant",
+    accent: "from-pink-400/30 via-rose-500/20 to-red-600/30",
+    icon: ShoppingBag,
+    screenshot: "/projects/restaurant.png",
+    live: "https://bayt-al-mandi.netlify.app/",
+    code: "https://github.com/abdullahzeb11/bayt-al-mandi",
+    stack: ["MongoDB", "Express", "React", "Node.js"],
+  },
+  {
+    slug: "ai-saas",
+    accent: "from-emerald-400/30 via-teal-500/20 to-cyan-600/30",
+    icon: Sparkles,
+    screenshot: "/projects/ai-saas.png",
+    live: "https://helix-ai-landing.netlify.app/",
+    code: "https://github.com/abdullahzeb11/helix-landing",
+    stack: ["Next.js", "Framer Motion", "Tailwind", "Shadcn"],
+  },
+  {
+    slug: "construction",
+    accent: "from-yellow-400/30 via-amber-500/20 to-orange-600/30",
+    icon: HardHat,
+    screenshot: "/projects/construction.png",
+    live: "https://saudi-construction-site.netlify.app/",
+    code: "https://github.com/abdullahzeb11/saudi-construction-site",
+    stack: ["HTML5", "Tailwind CSS", "Vanilla JS", "i18n"],
+  },
+];
+
+export const techStack = [
+  { name: "React", category: "Frontend" as const },
+  { name: "Next.js", category: "Frontend" as const },
+  { name: "TypeScript", category: "Language" as const },
+  { name: "Tailwind CSS", category: "Frontend" as const },
+  { name: "Framer Motion", category: "Frontend" as const },
+  { name: "Shadcn UI", category: "Frontend" as const },
+  { name: "SFCC SFRA", category: "Commerce" as const },
+  { name: "Magento 2", category: "Commerce" as const },
+  { name: "PHP", category: "Backend" as const },
+  { name: "Node.js", category: "Backend" as const },
+  { name: "MySQL", category: "Database" as const },
+  { name: "MongoDB", category: "Database" as const },
+  { name: "REST · GraphQL", category: "APIs" as const },
+  { name: "Git · GitHub", category: "Tooling" as const },
+];
+
+export const serviceIcons = [
+  Building2,
+  LineChart,
+  ShoppingBag,
+  Layers,
+  Briefcase,
+  Workflow,
+  Code2,
+  Server,
+];
+
+export const principleIcons = [
+  Gauge,
+  Code2,
+  Smartphone,
+  Target,
+  Sparkles,
+  TrendingUp,
+];
+
+export const experienceTech = [
+  ["Next.js", "TypeScript", "Tailwind", "PHP", "MySQL", "REST APIs"],
+  ["React", "Magento 2", "PHP", "MySQL", "MongoDB", "REST APIs"],
+  ["SFCC SFRA", "ISML", "JavaScript", "Node.js", "OCAPI", "Git"],
+];
+
+export const contactChannels = [
+  {
+    key: "Email" as const,
+    value: profile.email,
+    href: `mailto:${profile.email}`,
+    icon: Mail,
+  },
+  {
+    key: "WhatsApp" as const,
+    value: profile.whatsapp,
+    href: `https://wa.me/${profile.whatsapp.replace(/\D/g, "")}`,
+    icon: MessageCircle,
+  },
+  {
+    key: "Call" as const,
+    value: profile.phone,
+    href: `tel:${profile.phone.replace(/\s/g, "")}`,
+    icon: Phone,
+  },
+  {
+    key: "LinkedIn" as const,
+    value: "linkedin.com/in/abdullah-zeb",
+    href: profile.linkedin,
+    icon: Linkedin,
+  },
+  {
+    key: "GitHub" as const,
+    value: "github.com/abdullahzeb11",
+    href: profile.github,
+    icon: Github,
+  },
+];
