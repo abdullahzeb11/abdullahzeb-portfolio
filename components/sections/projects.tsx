@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowUpRight, Github, type LucideIcon } from "lucide-react";
 import { SectionHeading } from "@/components/section-heading";
@@ -21,7 +22,7 @@ interface ProjectCardProps {
   proprietaryLabel: string;
 }
 
-function ProjectCard({
+export function ProjectCard({
   item,
   meta,
   index,
@@ -54,6 +55,7 @@ function ProjectCard({
             src={meta.screenshot}
             alt={item.title}
             fill
+            priority={index < 3}
             sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             className="object-cover object-center transition-transform duration-700 group-hover:scale-[1.03]"
             onError={() => setImageFailed(true)}
@@ -159,7 +161,11 @@ function ProjectCard({
 
 export function Projects() {
   const t = useT();
-  const items = t.projects.items;
+  const featured = t.projects.items.filter((p) => {
+    const meta = projectMeta.find((m) => m.slug === p.slug);
+    return meta?.featured;
+  });
+  const total = t.projects.items.length;
 
   return (
     <section id="projects" className="relative py-24 md:py-32">
@@ -180,7 +186,7 @@ export function Projects() {
         </div>
 
         <div className="mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-          {items.map((p, i) => {
+          {featured.map((p, i) => {
             const meta =
               projectMeta.find((m) => m.slug === p.slug) ?? projectMeta[i];
             return (
@@ -195,6 +201,16 @@ export function Projects() {
               />
             );
           })}
+        </div>
+
+        <div className="mt-12 flex justify-center">
+          <Link
+            href="/projects"
+            className="group inline-flex items-center gap-2 rounded-full border border-tint/10 bg-tint/[0.04] px-6 py-3 text-sm font-medium hover:bg-tint/[0.08] hover:border-tint/[0.2] transition-all"
+          >
+            {t.projects.viewAll.replace("11", String(total))}
+            <ArrowUpRight className="size-4 transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100" />
+          </Link>
         </div>
       </div>
     </section>

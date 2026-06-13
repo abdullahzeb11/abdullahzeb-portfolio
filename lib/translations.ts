@@ -140,8 +140,37 @@ export const translations = {
       discuss: "Discuss a project",
       live: "Live demo",
       code: "Code",
-      proprietary: "Client work — code & demos not public",
+      proprietary: "Internal client work — code & demos not public",
+      viewAll: "View all 11 projects",
+      backHome: "Back to home",
+      allTitle: "Every project, in one place.",
+      allDescription:
+        "The complete archive — AI tools, production SaaS, enterprise commerce and bilingual business platforms.",
       items: [
+        {
+          slug: "meeting-room",
+          title: "Meeting Room Reservation System",
+          tag: "Internal SaaS · In production",
+          description:
+            "Internal booking platform in daily use across the company's headquarters. Bilingual EN/AR with full RTL, realtime updates across sessions, role-based restricted rooms and a complete audit trail. Every rule — working hours, slot alignment, no double-booking — is enforced in the database with Postgres constraints and RLS, so the UI can't be bypassed.",
+          metrics: [
+            { label: "Users", value: "50+ staff" },
+            { label: "Integrity", value: "DB-enforced" },
+            { label: "Audit", value: "Full trail" },
+          ],
+        },
+        {
+          slug: "razan",
+          title: "Razan · Hijama Clinic Platform",
+          tag: "Healthcare · Bilingual",
+          description:
+            "Premium bilingual (Arabic-first / English) clinic and booking platform for a Riyadh hijama practice. Full RTL, a custom brand system, a Prisma-backed schema for appointments, services and reviews, plus SEO with MedicalBusiness JSON-LD and edge-rendered OG images.",
+          metrics: [
+            { label: "Markets", value: "AR · EN" },
+            { label: "Layout", value: "Full RTL" },
+            { label: "Type", value: "Booking SaaS" },
+          ],
+        },
         {
           slug: "ai-doc-qa",
           title: "AI Document Q&A",
@@ -545,8 +574,37 @@ export const translations = {
       discuss: "نقاش حول مشروع",
       live: "عرض مباشر",
       code: "الكود",
-      proprietary: "أعمال عملاء — الكود والعروض غير متاحة للعامة",
+      proprietary: "عمل داخلي لعميل — الكود والعروض غير متاحة للعامة",
+      viewAll: "عرض جميع المشاريع (11)",
+      backHome: "العودة للرئيسية",
+      allTitle: "جميع المشاريع في مكان واحد.",
+      allDescription:
+        "الأرشيف الكامل — أدوات ذكاء اصطناعي، منتجات SaaS في الإنتاج، تجارة إلكترونية للمؤسسات، ومنصات أعمال ثنائية اللغة.",
       items: [
+        {
+          slug: "meeting-room",
+          title: "نظام حجز قاعات الاجتماعات",
+          tag: "نظام داخلي · قيد الإنتاج",
+          description:
+            "منصة حجز داخلية تُستخدم يومياً في المقر الرئيسي للشركة. ثنائية اللغة (عربي/إنجليزي) مع دعم RTL كامل، تحديثات لحظية عبر الجلسات، قاعات مقيدة حسب الصلاحية، وسجل تدقيق كامل. كل قاعدة — ساعات العمل، محاذاة الفترات، منع الحجز المزدوج — مفروضة على مستوى قاعدة البيانات عبر قيود Postgres وسياسات RLS، فلا يمكن تجاوز الواجهة.",
+          metrics: [
+            { label: "المستخدمون", value: "+50 موظف" },
+            { label: "النزاهة", value: "على قاعدة البيانات" },
+            { label: "التدقيق", value: "سجل كامل" },
+          ],
+        },
+        {
+          slug: "razan",
+          title: "رزان · منصة عيادة الحجامة",
+          tag: "رعاية صحية · ثنائي اللغة",
+          description:
+            "منصة عيادة وحجوزات فاخرة ثنائية اللغة (عربي أولاً / إنجليزي) لمركز حجامة في الرياض. دعم RTL كامل، هوية بصرية مخصصة، مخطط Prisma للمواعيد والخدمات والتقييمات، وتحسين محركات بحث مع JSON-LD وصور OG مُولّدة على الـ Edge.",
+          metrics: [
+            { label: "الأسواق", value: "AR · EN" },
+            { label: "التصميم", value: "RTL كامل" },
+            { label: "النوع", value: "حجوزات SaaS" },
+          ],
+        },
         {
           slug: "ai-doc-qa",
           title: "محادثة المستندات بالذكاء الاصطناعي",

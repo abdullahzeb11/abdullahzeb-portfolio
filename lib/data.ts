@@ -2,7 +2,9 @@ import {
   BrainCircuit,
   Briefcase,
   Building2,
+  CalendarCheck,
   Code2,
+  Droplets,
   Gauge,
   Github,
   HardHat,
@@ -34,15 +36,35 @@ export const profile = {
 };
 
 export const navHrefs = [
-  { href: "#about", key: "about" as const },
-  { href: "#experience", key: "experience" as const },
-  { href: "#projects", key: "projects" as const },
-  { href: "#stack", key: "stack" as const },
-  { href: "#services", key: "services" as const },
-  { href: "#contact", key: "contact" as const },
+  { href: "/#about", key: "about" as const },
+  { href: "/#experience", key: "experience" as const },
+  { href: "/#projects", key: "projects" as const },
+  { href: "/#stack", key: "stack" as const },
+  { href: "/#services", key: "services" as const },
+  { href: "/#contact", key: "contact" as const },
 ];
 
 export const projectMeta = [
+  {
+    slug: "meeting-room",
+    accent: "from-slate-400/30 via-blue-500/20 to-indigo-600/30",
+    icon: CalendarCheck,
+    screenshot: "/projects/meeting-room.png",
+    live: "",
+    code: "",
+    featured: true,
+    stack: ["React 18", "Supabase", "Postgres RLS", "Realtime", "MUI"],
+  },
+  {
+    slug: "razan",
+    accent: "from-emerald-400/30 via-green-500/20 to-amber-600/30",
+    icon: Droplets,
+    screenshot: "/projects/razan.png",
+    live: "https://razan-hijama.vercel.app",
+    code: "https://github.com/abdullahzeb11/razan",
+    featured: true,
+    stack: ["Next.js 15", "next-intl", "Prisma", "Supabase", "Framer Motion"],
+  },
   {
     slug: "ai-doc-qa",
     accent: "from-blue-400/30 via-purple-500/20 to-fuchsia-600/30",
@@ -50,6 +72,7 @@ export const projectMeta = [
     screenshot: "/projects/ai-doc-qa.png",
     live: "https://ai-doc-qa-abdullah.netlify.app/",
     code: "https://github.com/abdullahzeb11/ai-doc-qa",
+    featured: true,
     stack: ["Next.js 15", "Supabase", "pgvector", "Claude API"],
   },
   {
@@ -59,6 +82,7 @@ export const projectMeta = [
     screenshot: "/projects/fawtara.png",
     live: "https://fawtara-invoicing.netlify.app/",
     code: "https://github.com/abdullahzeb11/vat-invoicing-saas",
+    featured: true,
     stack: ["Next.js 15", "Supabase", "Postgres", "pdf-lib"],
   },
   {
@@ -68,6 +92,7 @@ export const projectMeta = [
     screenshot: "",
     live: "",
     code: "",
+    featured: true,
     stack: ["SFCC SFRA", "ISML", "Node.js", "OCAPI"],
   },
   {
@@ -77,6 +102,7 @@ export const projectMeta = [
     screenshot: "/projects/oasis-breeze.png",
     live: "https://oasisbreeze-ksa.netlify.app/",
     code: "https://github.com/abdullahzeb11/oasis-breeze",
+    featured: true,
     stack: ["Next.js 15", "TypeScript", "Tailwind", "i18n", "Sanity"],
   },
   {
@@ -86,6 +112,7 @@ export const projectMeta = [
     screenshot: "/projects/hr-leave.png",
     live: "https://leavely-demo.netlify.app/",
     code: "https://github.com/abdullahzeb11/hr-leave-management",
+    featured: false,
     stack: ["React", "Node.js", "MySQL", "Tailwind"],
   },
   {
@@ -95,6 +122,7 @@ export const projectMeta = [
     screenshot: "/projects/attendance.png",
     live: "https://attendly-dashboard.netlify.app/",
     code: "https://github.com/abdullahzeb11/attendance-dashboard",
+    featured: true,
     stack: ["React", "Recharts", "Node.js", "MongoDB"],
   },
   {
@@ -104,6 +132,7 @@ export const projectMeta = [
     screenshot: "/projects/restaurant.png",
     live: "https://bayt-al-mandi.netlify.app/",
     code: "https://github.com/abdullahzeb11/bayt-al-mandi",
+    featured: true,
     stack: ["MongoDB", "Express", "React", "Node.js"],
   },
   {
@@ -113,6 +142,7 @@ export const projectMeta = [
     screenshot: "/projects/ai-saas.png",
     live: "https://helix-ai-landing.netlify.app/",
     code: "https://github.com/abdullahzeb11/helix-landing",
+    featured: true,
     stack: ["Next.js", "Framer Motion", "Tailwind", "Shadcn"],
   },
   {
@@ -122,6 +152,7 @@ export const projectMeta = [
     screenshot: "/projects/construction.png",
     live: "https://saudi-construction-site.netlify.app/",
     code: "https://github.com/abdullahzeb11/saudi-construction-site",
+    featured: false,
     stack: ["HTML5", "Tailwind CSS", "Vanilla JS", "i18n"],
   },
 ];
