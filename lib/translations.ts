@@ -6,8 +6,8 @@ export const translations = {
   en: {
     profile: {
       name: "Abdullah Zeb",
-      title: "Software Engineer · Web Developer · SFCC Developer",
-      role: "Software Engineer",
+      title: "Senior Software Engineer · Full-Stack & SFCC Developer",
+      role: "Senior Software Engineer",
       location: "Riyadh, Saudi Arabia",
       city: "Riyadh",
       languages: "English · Arabic",
@@ -422,7 +422,7 @@ export const translations = {
     },
     footer: {
       tagline:
-        "Available for senior frontend, SFCC and business web projects across Saudi Arabia and remote.",
+        "Available for senior software engineering, SFCC and full-stack web projects across Saudi Arabia and remote.",
       sections: "Sections",
       connect: "Connect",
       copyright: "Crafted in Riyadh.",
@@ -440,8 +440,8 @@ export const translations = {
   ar: {
     profile: {
       name: "عبدالله زيب",
-      title: "مهندس برمجيات · مطور ويب · مطور SFCC",
-      role: "مهندس برمجيات",
+      title: "مهندس برمجيات أول · مطور Full-Stack و SFCC",
+      role: "مهندس برمجيات أول",
       location: "الرياض، المملكة العربية السعودية",
       city: "الرياض",
       languages: "الإنجليزية · العربية",
@@ -856,7 +856,7 @@ export const translations = {
     },
     footer: {
       tagline:
-        "متاح لمشاريع واجهة أمامية متقدمة، SFCC، ومشاريع ويب للأعمال في المملكة العربية السعودية وعن بُعد.",
+        "متاح لوظائف مهندس برمجيات أول، SFCC، ومشاريع ويب متكاملة (Full-Stack) في المملكة العربية السعودية وعن بُعد.",
       sections: "الأقسام",
       connect: "تواصل",
       copyright: "صُنع في الرياض.",
