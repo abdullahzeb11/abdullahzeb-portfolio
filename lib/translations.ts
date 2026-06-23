@@ -34,7 +34,7 @@ export const translations = {
       ctaSecondary: "Contact me",
       resume: "Download résumé →",
       stats: [
-        { label: "Years building", value: "5+" },
+        { label: "Years building", value: "6+" },
         { label: "Enterprise launches", value: "10+" },
         { label: "Global retail brands", value: "3+" },
         { label: "Markets supported", value: "EN · AR" },
@@ -44,7 +44,7 @@ export const translations = {
       eyebrow: "About",
       title: "Experience building real-world business platforms.",
       description:
-        "Over five years of experience building ecommerce platforms, business systems and frontend applications for companies in Pakistan and Saudi Arabia.",
+        "Over six years of experience building ecommerce platforms, business systems and frontend applications for companies in Pakistan and Saudi Arabia.",
       currentlyEyebrow: "Currently",
       currentlyLine: "Building bilingual business web platforms at",
       currentlyCompany: "Daffah",
@@ -54,7 +54,7 @@ export const translations = {
         based: "Based",
         experience: "Experience",
         status: "Status",
-        years: "5+ years",
+        years: "6+ years",
       },
       pillars: [
         {
@@ -81,7 +81,7 @@ export const translations = {
     },
     experience: {
       eyebrow: "Experience",
-      title: "Five years across commerce and business systems.",
+      title: "Six years across commerce and business systems.",
       description:
         "From SFCC programmes for global retailers to bilingual Saudi business platforms. Here's the path.",
       items: [
@@ -478,7 +478,7 @@ export const translations = {
       eyebrow: "نبذة",
       title: "خبرة في بناء منصات أعمال حقيقية.",
       description:
-        "أكثر من خمس سنوات من الخبرة في بناء منصات التجارة الإلكترونية، أنظمة الأعمال، وتطبيقات الواجهة الأمامية لشركات في باكستان والمملكة العربية السعودية.",
+        "أكثر من ست سنوات من الخبرة في بناء منصات التجارة الإلكترونية، أنظمة الأعمال، وتطبيقات الواجهة الأمامية لشركات في باكستان والمملكة العربية السعودية.",
       currentlyEyebrow: "حالياً",
       currentlyLine: "أبني منصات ويب أعمال ثنائية اللغة في",
       currentlyCompany: "الدفة",
@@ -515,7 +515,7 @@ export const translations = {
     },
     experience: {
       eyebrow: "الخبرة",
-      title: "خمس سنوات في التجارة الإلكترونية وأنظمة الأعمال.",
+      title: "ست سنوات في التجارة الإلكترونية وأنظمة الأعمال.",
       description:
         "من برامج SFCC لكبرى شركات التجزئة العالمية إلى منصات أعمال سعودية ثنائية اللغة. هذا هو المسار.",
       items: [

@@ -32,7 +32,7 @@ export const profile = {
   github: "https://github.com/abdullahzeb11",
   linkedin: "https://www.linkedin.com/in/abdullah-zeb",
   resume: "/abdullah-zeb-resume.pdf",
-  yearsOfExperience: 5,
+  yearsOfExperience: 6,
 };
 
 export const navHrefs = [
